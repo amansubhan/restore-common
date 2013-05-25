@@ -1,0 +1,12 @@
+Package: restore-dc-common
+Source: restore
+Version: 4.0b39-1ubuntu1
+Architecture: all
+Maintainer: Adam Lebsack <adam@holonyx.com>
+Installed-Size: 1760
+Depends: adduser, dbconfig-common, debconf, irb1.8, libdaemons-ruby, libfastthread-ruby, libfcgi-ruby1.8, libgettext-ruby1.8 (>= 1.9.0), libjson-ruby1.8, libmime-types-ruby, libmysql-ruby1.8, libnet-sftp-ruby, libnet-ssh-ruby1.8 (>= 1.1.1), libruby1.8, libslave-ruby, libsmb-ruby, libtermios-ruby, libzip-ruby, mysql-client, mysql-server-5.0, rails (>= 1.2.2), rake, ruby, ruby1.8
+Conflicts: restore-ee
+Section: web
+Priority: optional
+Description: Restore backup system (Data Center Edition)
+ Restore backup and restoration system (Data Center Edition)
